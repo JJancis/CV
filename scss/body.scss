@@ -1,0 +1,65 @@
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 2rem;
+  &::-webkit-scrollbar {
+    width: 0.5rem;
+    background: transparent;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: var(--heading-color);
+  }
+}
+
+body {
+  color: var(--bg-color);
+  background: var(--body-color);
+}
+
+section {
+  padding: 3rem 0 2rem;
+
+  img {
+    width: 100%;
+  }
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  width: 100%;
+}
+.swal-modal {
+  max-width: 450px;
+}
+.swal-button {
+  background: var(--main-color);
+  border: none;
+  &:not([disabled]):hover {
+    background: var(--container-color);
+  }
+}
+.heading {
+  font-size: 5rem;
+  text-transform: uppercase;
+  color: var(--heading-color);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.social {
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+
+  .bx {
+    font-size: 1.3rem;
+    padding: 10px;
+    border-radius: 50%;
+    color: var(--bg-color);
+    background: var(--container-color);
+
+    &:hover {
+      background: var(--main-color);
+      transition: 0.3s all linear;
+    }
+  }
+}

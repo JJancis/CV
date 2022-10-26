@@ -1,0 +1,14 @@
+@keyframes switch {
+  0%,
+  5%,
+  100% {
+    filter: blur(0px);
+    opacity: 1;
+  }
+
+  50%,
+  80% {
+    filter: blur(150px);
+    opacity: 0;
+  }
+}

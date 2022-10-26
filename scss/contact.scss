@@ -1,0 +1,31 @@
+.contact-form {
+  max-width: 800px;
+  margin: auto;
+  width: 100%;
+  display: grid;
+  row-gap: 1rem;
+  input,
+  textarea {
+    border: none;
+    outline: none;
+    font-size: 0.9rem;
+    padding: 15px;
+    color: var(--bg-color);
+    background: var(--box-color);
+    border-radius: 0.4rem;
+  }
+  .send-btn {
+    width: 120px;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 12px;
+    background: var(--main-color);
+    cursor: pointer;
+    &:hover {
+      background: #192670;
+      transition: 0.3s all linear;
+    }
+  }
+}
