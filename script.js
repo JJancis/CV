@@ -59,15 +59,15 @@ function sendmail(name, email, msg) {
 
 function emptyerror() {
   swal({
-    title: 'Oi Ne....',
-    text: 'Laukai negali būti tušti!',
+    title: 'Oi No....',
+    text: 'Fields cannot be empty!',
     icon: 'error',
   });
 }
 function success() {
   swal({
-    title: 'El. laiškas sėkmingai išsiųstas!',
-    text: 'Pasistengsiu atsakyti per 24 valandas',
+    title: 'E-mail sent successfully!',
+    text: 'I will try to respond within 24 hours',
     icon: 'success',
   });
 }

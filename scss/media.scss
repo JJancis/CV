@@ -68,6 +68,8 @@
   }
   .home-text p {
     font-size: 0.825rem;
+    text-align: center;
+    padding: 0 20px;
   }
   .about-data .btn {
     margin-bottom: 2rem;
@@ -118,6 +120,10 @@
     line-height: 4rem;
   }
 
+  .home-text p {
+    padding: 0 45px;
+    text-align: justify;
+  }
   .home-text p br {
     display: contents;
   }

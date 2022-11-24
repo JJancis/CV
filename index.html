@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="lt">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -32,12 +32,36 @@
         <a href="#" class="logo"><span>Just</span> Jancis</a>
         <!-- Navbar -->
         <ul class="navbar">
-          <li><a href="#home" class="nav-link selected">Pagrindinis</a></li>
-          <li><a href="#about" class="nav-link">Apie</a></li>
-          <li><a href="#education" class="nav-link">Išsilavinimas</a></li>
-          <li><a href="#job" class="nav-link">Patirtis</a></li>
-          <li><a href="#contact" class="nav-link">Kontaktai</a></li>
+          <li>
+            <a href="#home" class="nav-link selected" localization-key="main"
+              >Pagrindinis</a
+            >
+          </li>
+          <li>
+            <a href="#about" class="nav-link" localization-key="about">Apie</a>
+          </li>
+          <li>
+            <a href="#education" class="nav-link" localization-key="education"
+              >Išsilavinimas</a
+            >
+          </li>
+          <li>
+            <a href="#job" class="nav-link" localization-key="experience"
+              >Patirtis</a
+            >
+          </li>
+          <li>
+            <a href="#contact" class="nav-link" localization-key="contacts"
+              >Kontaktai</a
+            >
+          </li>
+          <!--   Language change -->
+          <select id="localization-switcher" class="locale-switcher">
+            <option value="lt">LT</option>
+            <option value="en">EN</option>
+          </select>
         </ul>
+
         <!-- Menu -->
         <div class="menu-icon">
           <div class="line1"></div>
@@ -54,16 +78,16 @@
           <img src="app/images/profile.png.jpg" alt="profile" />
         </div>
         <div class="home-text">
-          <h3>Sveiki</h3>
+          <h3 localization-key="hello">Sveiki</h3>
           <div class="nameSurname">
-            <h2>Aš</h2>
+            <h2 localization-key="am">Aš</h2>
             <div class="g-container">
               <h2 class="word color">Justyna</h2>
               <h2 class="word color">Jančis</h2>
             </div>
           </div>
 
-          <p>
+          <p localization-key="description">
             Tikiu, kad kai žmogus <span class="color">mokosi</span> , jis
             <span class="color">auga .</span><br />
             <span class="color">Statybos inžinerė</span> iš Vilnius Tech kuri
@@ -94,22 +118,27 @@
     <!-- About -->
     <section class="about container" id="about">
       <!-- Heading -->
-      <h2 class="heading">Apie Mane</h2>
+      <h2 class="heading" localization-key="aboutMe">Apie Mane</h2>
       <!-- About Content -->
       <div class="about-content">
         <div class="about-data">
-          <span>Apie mane</span>
-          <h2>
+          <span localization-key="aboutMe">Apie mane</span>
+          <h2 localization-key="currentStatus">
             Pradedančioji Front-End programuotoja <br />
             & Statybos inžinerijos studentė
           </h2>
-          <a href="./app/pdf/JustynaJancisCv.pdf" class="btn" download="">
+          <a
+            href="./app/pdf/JustynaJancisCv.pdf"
+            class="btn"
+            download=""
+            localization-key="download"
+          >
             Atsisiųsti CV
             <i class="bx bx-download"></i>
           </a>
           <!-- Skills -->
           <div class="skill-table">
-            <h2>Įgūdžiai</h2>
+            <h2 localization-key="skills">Įgūdžiai</h2>
             <div class="skill-box">
               <p>HTML5</p>
               <p>90%</p>
@@ -155,8 +184,8 @@
           </div>
         </div>
         <div class="about-text">
-          <p>Sveiki! Esu Justyna Jančis.</p>
-          <p>
+          <p localization-key="iam">Sveiki! Esu Justyna Jančis.</p>
+          <p localization-key="descr">
             Mane jau senai žavėjo pragramavimas, troškau išbandyti savę,
             panauduoti savo <span class="color">analitinius</span> ir
             <span class="color">kūrybinius </span>įgūdžiūs. <br />
@@ -175,7 +204,7 @@
             Toks puikus vidinis jausmas, kad pagaliau esu čia, kur ir turiu būtį
             - rašau kodą, ieškau klaidų ir mokausi naujų dalykų.
           </p>
-          <p>
+          <p localization-key="practise">
             Mano kelias šioje srityje tik prasideda! Tai jei
             <b>ieškote</b> <span class="color">nuolankaus</span> ,
             <span class="color">labai motyvuoto </span>
@@ -190,18 +219,22 @@
     <!-- Education -->
     <section class="education container" id="education">
       <!-- Heading -->
-      <h2 class="heading">Išsilavinimas</h2>
+      <h2 class="heading" localization-key="education">Išsilavinimas</h2>
       <!-- Education Content -->
       <div class="education-content">
         <div class="education-box">
           <i class="bx bxs-school"></i>
-          <h2>Vilniaus Juzefo Ignacijaus Kraševskio gimnazija</h2>
-          <p>2005 m. - 2017 m.<br /></p>
+          <h2 localization-key="school">
+            Vilniaus Juzefo Ignacijaus Kraševskio gimnazija
+          </h2>
+          <p localization-key="schoolYear">2005 m. - 2017 m.<br /></p>
         </div>
         <div class="education-box">
           <i class="bx bx-hard-hat"></i>
-          <h2>Vilniaus Gedimino technikos universitetas</h2>
-          <p>
+          <h2 localization-key="university">
+            Vilniaus Gedimino technikos universitetas
+          </h2>
+          <p localization-key="universityYear">
             2017 m. - 2023 m.<br />
             Statybos inžinerijos studijos
           </p>
@@ -209,7 +242,7 @@
         <div class="education-box">
           <i class="bx bx-code-alt"></i>
           <h2>CodeAcademy</h2>
-          <p>
+          <p localization-key="academyYear">
             2022 m. liepos mėn. - 2022 m. spalio mėn.<br />
             Frontend – pradedančių studijos
           </p>
@@ -220,7 +253,7 @@
     <!-- Jobs -->
     <section class="job container" id="job">
       <!-- Heading -->
-      <h2 class="heading">Patirtis</h2>
+      <h2 class="heading" localization-key="experience">Patirtis</h2>
       <!-- Jobs Content -->
       <div class="job-content swiper">
         <div class="swiper-wrapper">
@@ -230,8 +263,12 @@
               <i class="bx bx-food-menu"></i>
               <h2>McDonald's</h2>
               <div class="job-text">
-                <p>2017 m. biržėlis - 2018 m. lapkritis</p>
-                <p>McCafe / Aptarnaujantis personalas</p>
+                <p localization-key="work1Yr">
+                  2017 m. biržėlis - 2018 m. lapkritis
+                </p>
+                <p localization-key="work1Discr">
+                  McCafe / Aptarnaujantis personalas
+                </p>
               </div>
             </div>
           </div>
@@ -242,8 +279,8 @@
               <i class="bx bx-hard-hat"></i>
               <h2>MB "Inovatyvios konstrukcijos"</h2>
               <div class="job-text">
-                <p>2019 m. gegužė - 2020 m. kovas</p>
-                <p>Inžinerė</p>
+                <p localization-key="work2Yr">2019 m. gegužė - 2020 m. kovas</p>
+                <p localization-key="work2Discr">Inžinerė</p>
               </div>
             </div>
           </div>
@@ -254,8 +291,8 @@
               <i class="bx bx-hard-hat"></i>
               <h2>INHUS Engineering</h2>
               <div class="job-text">
-                <p>2020 m. spalis - 2022 m. liepa</p>
-                <p>Jaunesnysis inžinerius</p>
+                <p localization-key="work3Yr">2020 m. spalis - 2022 m. liepa</p>
+                <p localization-key="work3Discr">Jaunesnysis inžinerius</p>
               </div>
             </div>
           </div>
@@ -268,15 +305,22 @@
     <!-- Contact Form -->
     <section class="contact container" id="contact">
       <!-- Heading -->
-      <h2 class="heading">Kontaktai</h2>
+      <h2 class="heading" localization-key="contacts">Kontaktai</h2>
       <!-- Contact Form -->
       <form action="" class="contact-form" id="contact-form">
-        <input type="text" placeholder="Vardas . . ." class="name" required />
+        <input
+          type="text"
+          placeholder="Vardas . . ."
+          class="name"
+          localization-placeholder-key="name"
+          required
+        />
         <input
           type="email"
           name=""
           id=""
           placeholder="Elektroninis paštas . . ."
+          localization-placeholder-key="email"
           class="email"
           required
         />
@@ -286,10 +330,16 @@
           cols="30"
           rows="10"
           placeholder="Palikite žinutę . . ."
+          localization-placeholder-key="message"
           class="message"
           required
         ></textarea>
-        <input type="submit" value="Siųsti" class="send-btn" />
+        <input
+          type="submit"
+          value="Siųsti"
+          localization-value-key="submit"
+          class="send-btn"
+        />
       </form>
     </section>
 
@@ -313,7 +363,10 @@
       <div class="footer-links">
         <p>J. Jančis</p>
         <p>+37064582108</p>
-        <a href="mailto:justyna.jancis@gmail.com" target="_blank"
+        <a
+          href="mailto:justyna.jancis@gmail.com"
+          target="_blank"
+          localization-key="writeMe"
           >Parašykite!
         </a>
       </div>
@@ -337,6 +390,7 @@
     <!-- Sweet Alert Js Link -->
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <!-- Link To Js -->
+    <script src="localization.js"></script>
     <script src="script.js"></script>
   </body>
 </html>

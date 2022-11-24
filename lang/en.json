@@ -1,0 +1,39 @@
+{
+  "text": {
+    "main": "Main",
+    "about": "About",
+    "education": "Education",
+    "experience": "Experience",
+    "contacts": "Contacts",
+    "hello": "Hello",
+    "am": "I'm",
+    "description": "I believe that when a person <span class='color'> learns </span> new things, he <span class=\"color\"> grows .</span><br /> <span class=\"color\">Construction engineer</span> from Vilnius Tech university who studying <span class=\"color\">JavaScript</span> pursuing for greater goals !<br />Here You can find more information <span class=\"color\">about me</span> and my <span class=\"color\">skills. ✨</span>",
+    "aboutMe": "About Me",
+    "currentStatus": "Beginner Front-End programmer <br /> & Civil Engineering student",
+    "download": "Download CV",
+    "skills": "Skills",
+    "iam": "Hello! I am Justyna Jančis.",
+    "descr": " I have been fascinated by programming for a long time, I wanted to test myself, use my <span class=\"color\">analytical</span> and <span class=\"color\">creative </span>skills.<br /><br />Namely the lack of creativity and monotony work in construction field server as the final point in deciding to <span class=\"color\"> change profession.</span><br /><br />Excited by the opportinity, I started to study <span class=\"color\"> Front-End for beginners </span> with <span class=\"color\">CodeAcademy </span>and after the course I started to study<span class=\"color\">on my own.</span><br /><br /><b><i> And I really like it !</i></b> <br /><br />It's such a great inner feeling that I'm finally here where I'm supposed to be - writing code, finding bugs and learning new things.",
+    "practise": " My journey in this field is just beginning! So if You are <b>looking for </b><span class=\"color\">humble</span>, <span class=\"color\">highly motivated </span><b> entry - level </b>programmer and <span class=\"color\">team reinforcement</span> – invite me to <span class=\"color\"><b>practice</b> </span> !",
+    "school": " Vilnius Juzefs Ignatius Kraševskis Gymnasium",
+    "schoolYear": "2005 yr. - 2017 yr.",
+    "university": "Vilnius Gediminas Technical University",
+    "universityYear": " 2017 yr. - 2023 yr.<br /> Civil engineering studies",
+    "academyYear": "2022 yr. July mo. - 2022 yr. October mo.<br /> Frontend – beginner studies",
+    "work1Yr": "2017 yr. June - 2018 yr. November",
+    "work1Discr": "McCafe / Service staff",
+    "work2Yr": "2019 yr. May - 2020 yr. March",
+    "work2Discr": "Engineer",
+    "work3Yr": "2020 yr. October - 2022 yr. July",
+    "work3Discr": "Junior engineer",
+    "writeMe": "Let's get in touch!"
+  },
+  "placeholder": {
+    "name": "Name . . .",
+    "email": "E-mail . . .",
+    "message": "Leave a message . . ."
+  },
+  "value": {
+    "submit": "Send"
+  }
+}

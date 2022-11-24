@@ -63,3 +63,11 @@ section {
     }
   }
 }
+.locale-switcher {
+  appearance: none;
+  padding: 0 10px;
+  color: var(--bg-color);
+  background: var(--box-color);
+  border-radius: 0.2rem;
+  border-color: white;
+}

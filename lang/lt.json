@@ -1,0 +1,43 @@
+{
+  "text": {
+    "main": "Pagrindinis",
+    "about": "Apie",
+    "education": "Išsilavinimas",
+    "experience": "Patirtis",
+    "contacts": "Kontaktai",
+    "hello": "Sveiki",
+    "am": "Aš",
+    "description": "Tikiu, kad kai žmogus <span class='color'> mokosi</span> , jis <span class=\"color\"> auga .</span><br /> <span class=\"color\">Statybos inžinerė</span> iš Vilnius Tech kuri mokosi <span class=\"color\">JavaScript</span> siekdama <br /> didesnių tikslų !<br />Čia gelėsite rasti daugiau informacijos <span class=\"color\">apie mane</span> ir mano <span class=\"color\">įgūdžius.</span>",
+    "aboutMe": "Apie Mane",
+    "currentStatus": "Pradedančioji Front-End programuotoja <br /> & Statybos inžinerijos studentė",
+    "download": "Atsisiųsti CV",
+    "skills": "Įgūdžiai",
+    "iam": "Sveiki! Esu Justyna Jančis.",
+    "descr": " Mane jau senai žavėjo programavimas, troškau išbandyti savę, panaudoti savo <span class=\"color\">analitinius</span> ir <span class=\"color\">kūrybinius </span>įgūdžiūs.<br /><br />Būtent kūrybiškumo trūkumas ir monotoniškumas projekatavimo srityje padėjo galūtinį tašką apsisprendžiant<span class=\"color\"> keistį profesiją.</span><br /><br />Sužavėta galimybę pradėjau kartų su su<span class=\"color\"> CodeAcademy </span> studijuoti <span class=\"color\">Front-End pradedantysiems </span>ir pasibaigus kursui pradėjau mokytis <span class=\"color\">savarankiškai.</span><br /><br /><b><i> Ir tai man be galo patinka !</i></b> <br /><br />Toks puikus vidinis jausmas, kad pagaliau esu čia, kur ir turiu būtį - rašau kodą, ieškau klaidų ir mokausi naujų dalykų.",
+    "practise": " Mano kelias šioje srityje tik prasideda! Tai jei <b>ieškote </b><span class=\"color\">nuolankaus</span> ,<span class=\"color\">labai motyvuoto </span><b> entry level </b>programuotojos ir <span class=\"color\">komandos pastiprinimo</span> – pakvieskite mane į <span class=\"color\"><b>praktiką</b> </span> !",
+    "school": " Vilniaus Juzefo Ignacijaus Kraševskio gimnazija",
+    "schoolYear": "2005 m. - 2017 m.",
+    "university": "Vilniaus Gedimino Technikos Universitetas",
+    "universityYear": " 2017 m. - 2023 m.<br /> Statybos inžinerijos studijos",
+    "academyYear": "2022 m. liepos mėn. - 2022 m. spalio mėn.<br /> Frontend – pradedančių studijos",
+    "work1Yr": "2017 m. biržėlis - 2018 m. lapkritis",
+    "work1Discr": "McCafe / Aptarnaujantis personalas",
+    "work2Yr": "2019 m. gegužė - 2020 m. kovas",
+    "work2Discr": "Inžinerė",
+    "work3Yr": "2020 m. spalis - 2022 m. liepa",
+    "work3Discr": "Jaunesnysis inžinerius",
+    "writeMe": "Parašykite!"
+  },
+  "placeholder": {
+    "name": "Vardas . . .",
+    "email": "Elektroninis paštas . . .",
+    "message": "Palikite žinutę . . ."
+  },
+  "value": {
+    "submit": "Siųsti"
+  },
+  "message": {
+    "errorTitle": "Oi Ne....",
+    "errorText": "Laukai negali būti tušti!"
+  }
+}
