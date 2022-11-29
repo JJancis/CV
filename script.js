@@ -3,6 +3,7 @@ let menu = document.querySelector('.menu-icon');
 let navbar = document.querySelector('.navbar');
 let anchors = document.querySelectorAll('.nav-link');
 const sections = document.querySelectorAll('section');
+let downloadBtn = document.getElementById('btn');
 
 document.addEventListener('DOMContentLoaded', function () {
   window.scrollTo(0, 0);
@@ -76,7 +77,6 @@ function success() {
 let header = document.querySelector('header');
 
 window.addEventListener('scroll', () => {
-  console.log(window.scrollY);
   header.classList.toggle('header-active', window.scrollY > 0);
 });
 
@@ -104,4 +104,9 @@ window.addEventListener('scroll', function () {
       anchor.classList.add('selected');
     }
   }
+});
+// CV download different language
+downloadBtn.addEventListener('click', function (event) {
+  event.preventDefault();
+  window.open(`./app/pdf/JustynaJancisCv_${switcher.value}.pdf`, '_blank');
 });
