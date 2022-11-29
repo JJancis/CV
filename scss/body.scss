@@ -25,6 +25,7 @@ section {
 
 .container {
   max-width: 1200px;
+  min-width: 350px;
   margin: auto;
   width: 100%;
 }
@@ -64,10 +65,11 @@ section {
   }
 }
 .locale-switcher {
-  appearance: none;
-  padding: 0 10px;
+  // appearance: none;
+  padding: 1px 5px;
   color: var(--bg-color);
   background: var(--box-color);
-  border-radius: 0.2rem;
+  border-radius: 0.3rem;
+  border-width: 1.5px;
   border-color: white;
 }

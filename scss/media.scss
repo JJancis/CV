@@ -3,8 +3,22 @@
     margin: 0 auto;
     width: 90%;
   }
+  .about-content .about-data h2 {
+    line-height: 2.5rem;
+    margin: 1rem 0;
+  }
 }
+@media (max-width: 1050px) {
+  .about-content .about-data h2 {
+    line-height: 2.2rem;
+    margin: 2rem 0;
+  }
+}
+
 @media (max-width: 920px) {
+  .about-content .about-data h2 {
+    line-height: 1.8rem;
+  }
   section {
     padding: 2rem 0;
   }
@@ -14,22 +28,19 @@
   .heading {
     font-size: 4rem;
   }
-
-  .about-data {
-    padding-right: 40px;
-  }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 850px) {
   .menu-icon {
     display: flex;
   }
+
   .navbar {
     position: absolute;
     top: 0;
     right: -100%;
     width: 250px;
-    height: 100vh;
+    height: calc(100vh + 20px);
     background: var(--box-color);
     display: flex;
     flex-direction: column;
@@ -47,7 +58,13 @@
     margin: 1rem 0;
   }
   .about-content {
-    gap: 1rem;
+    gap: 30px;
+  }
+}
+
+@media (max-width: 750px) {
+  .about-content .about-data h2 {
+    line-height: 1.5rem;
   }
 }
 @media (max-width: 700px) {
@@ -69,10 +86,13 @@
   .home-text p {
     font-size: 0.825rem;
     text-align: center;
-    padding: 0 20px;
   }
-  .about-data .btn {
-    margin-bottom: 2rem;
+  .about-content .about-data .btn {
+    margin-bottom: 1.5rem;
+  }
+  .about-content .about-data .skill-table {
+    padding: 5px 20px;
+    margin-bottom: 3rem;
   }
   .heading {
     font-size: 2.7rem;
@@ -106,7 +126,7 @@
     width: 100%;
   }
 }
-@media (max-width: 460px) {
+@media (max-width: 500px) {
   .home {
     min-height: 485px;
     padding-top: 5rem;
@@ -115,13 +135,15 @@
     width: 140px;
     height: 140px;
   }
-  .home-text h2 {
-    font-size: 2.5rem;
-    line-height: 4rem;
+  .home .home-content .home-text .nameSurname {
+    h2 {
+      font-size: 3rem;
+    }
   }
 
   .home-text p {
-    padding: 0 45px;
+    // width: 100%;
+    // padding: 0 35px 0 25px;
     text-align: justify;
   }
   .home-text p br {
@@ -135,13 +157,83 @@
     line-height: 2.1rem;
     margin: 0.6rem 0;
   }
+
   .footer-links {
     flex-direction: column;
     row-gap: 1rem;
   }
 }
-@media (max-width: 325px) {
+
+@media (max-width: 450px) {
+  .home .home-content .home-text .nameSurname {
+    h2 {
+      font-size: 2.5rem;
+    }
+    .g-container {
+      .word {
+        left: 40%;
+      }
+    }
+  }
+}
+@media (max-width: 420px) {
+  .home .home-content .home-text .nameSurname {
+    h2 {
+      line-height: 3.5rem;
+    }
+    .g-container {
+      padding-left: 240px;
+      .word {
+        left: 40%;
+      }
+    }
+  }
+}
+
+@media (max-width: 390px) {
+  .menu-icon {
+    margin-right: 10px;
+  }
+  .logo {
+    margin-left: 5px;
+  }
+  .container {
+    padding: 0 5px 0 5px;
+  }
+  .home {
+    padding-top: 5rem;
+  }
+  .contact-form .send-btn,
+  .education-content .education-box:last-child,
+  .social {
+    margin-bottom: 20px;
+  }
   .navbar {
+    margin-top: 69px;
     width: 100%;
+    height: auto;
+  }
+}
+@media (max-width: 360px) {
+  .menu-icon {
+    margin-right: 15px;
+  }
+  .logo {
+    margin-left: 5px;
+  }
+  .home-img {
+    margin-top: 5rem;
+  }
+  .container {
+    padding: 0 0px 0 20px;
+  }
+}
+@media (max-width: 300px) {
+  .logo {
+    margin-left: 10px;
+  }
+
+  .container {
+    padding: 0 0px 0 25px;
   }
 }
